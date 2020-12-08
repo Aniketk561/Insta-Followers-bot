@@ -115,14 +115,14 @@ def instagram(update,context):
 		fullnameStr = ''.join(random.choice(firstName) + ' ' + random.choice(surName))
 		webbrowser.open('https://mail.tm/en')
 		time.sleep(3)
-		pyautogui.click(1883, 123)
+		pyautogui.click(1334, 192)
 		while True:
 			var = pyautogui.locateOnScreen('generatemail.png')
 			if var != None:
 				pyautogui.click(var)
 				break
 		time.sleep(3)
-		pyautogui.click(461, 124)
+		pyautogui.click(399, 193)
 		time.sleep(1)
 		webbrowser.open_new_tab('https://www.instagram.com/accounts/emailsignup/')
 		time.sleep(5)
