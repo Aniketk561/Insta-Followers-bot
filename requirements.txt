@@ -1,0 +1,3 @@
+python_telegram_bot==12.5.1
+pyautogui
+pillow
